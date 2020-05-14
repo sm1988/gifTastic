@@ -1,0 +1,64 @@
+body {
+    background-color: #000;
+    margin: 0;
+  }
+
+  .jumbotron {
+    font-family: "Trattatello", fantasy;
+    background-color: #000;
+    padding: 0;
+    margin-bottom: 60px;
+    font-size: 4rem;
+    color: orange;
+    text-align: center;
+  }
+  
+
+  label {
+    color: white;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  #buttons {
+    border: 1px red solid;
+    border-radius: 10px;
+    margin: 0 100px;
+    font-family: "Jazz LET", fantasy;
+
+  }
+  
+  #gifs-appear-here {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px 100px;
+  }
+  
+  .form-group {
+    margin: 50px 100px;
+  }
+  
+  #buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  @media (max-width: 1000px) {
+    #buttons {
+      margin: 0 15px;
+    }
+    .form-group {
+      margin: 50px 30px;
+    }
+    .form-inline {
+      justify-content: center;
+    }
+    #add-car {
+      margin: 20px 0
+    }
+  }
